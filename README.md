@@ -13,7 +13,7 @@ This script fixes your DNS entries as follows:
 
 ## Usage
 
-Install Python. Create a virtual environment and activate it.
+Install Python (tested with 3.10). Create a virtual environment and activate it.
 
     python -m venv .venv
     source .venv/bin/activate
