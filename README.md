@@ -37,6 +37,7 @@ Run the script.
 
 The script uses the CloudFlare API to retrieve the list of tunnels and the list of all DNS records of all zones in your account.
 It then compares the two lists and updates the DNS records accordingly.
+For DNS record removal, it only considers DNS records pointing to Cloudflare tunnels.
 
 The script tells you what it is going to do, and prompts for confirmation before making any changes.
 
@@ -47,4 +48,4 @@ The script will want to remove any CNAME records to tunnels you do not own.
 
 The script assumes that the DNS zones for which you create tunnels are managed by CloudFlare and reside in the same account as the tunnels.
 
-I created this script for my own use; it may not work for you. No guarantees.
+I created this script for personal use; it may not work for you. No guarantees.
