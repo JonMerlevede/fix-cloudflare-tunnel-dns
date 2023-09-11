@@ -1,6 +1,6 @@
 # Fix Cloudflare Zero-Trust Tunnel DNS Records
 
-Adding or removing hostnames to your Zero-Trust Tunnel configuration automatically creates appropriate DNS CNAME records in the appropriate zone.
+Adding or removing hostnames to your Zero-Trust Tunnel configuration automatically updates the appropriate DNS CNAME records in the appropriate zone.
 Unfortunately, this process sometimes fails.
 For example, you may run into this issue: https://github.com/cloudflare/cloudflared/issues/354.
 
