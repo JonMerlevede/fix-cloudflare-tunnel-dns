@@ -6,9 +6,8 @@ For example, you may run into this issue: https://github.com/cloudflare/cloudfla
 
 This script fixes your DNS entries as follows:
 
-* Update DNS records for hostnames present in the DNS zone, but not pointing to the correct tunnel.
-* Add DNS records for hostnames defined in tunnels but not your DNS zone.
-* Remove DNS records pointing to a non-existing tunnel or a tunnel that does not define the record's hostname.
+* Adds and updates DNS records for hostnames defined in tunnels.
+* Removes DNS records incorrectly pointing to a tunnel.
 
 
 ## Usage
